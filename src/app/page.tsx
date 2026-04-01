@@ -58,7 +58,7 @@ export default function Home() {
         primaryAction={{ label: "Solicitar proposta", href: "/contato" }}
         secondaryAction={{ label: "Ver portfólio", href: "/portfolio" }}
         tertiaryAction={{ label: "Conhecer processo", href: "#processo" }}
-        backgroundImage="/images/hero-evento.jpg"
+        backgroundImage="/images/hero-evento2.png"
       />
 
       <section className="section-shell border-y border-white/10 bg-[#080808] py-8">

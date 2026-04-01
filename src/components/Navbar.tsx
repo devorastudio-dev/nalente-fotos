@@ -53,7 +53,7 @@ export function Navbar() {
           }`}
         >
           <Link href="/" className="flex items-center gap-3">
-            <div className="rounded-full border border-white/10 bg-white/5 p-2">
+            <div className="p-2">
               <Image
                 src={logoImg}
                 alt="Logo NA LENTE"

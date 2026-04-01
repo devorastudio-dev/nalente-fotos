@@ -38,11 +38,11 @@ export const eventos: EventData[] = [
       "Captura precisa de ação, intensidade e momentos decisivos.",
     description:
       "Cobertura dinâmica de eventos esportivos, com foco em movimento, emoção e registros no momento exato da ação.",
-    coverImage: "/images/eventos/esportivos-cover.jpg",
+    coverImage: "/images/eventos/esportivos-cover.webp",
     gallery: [
-      { src: "/images/eventos/esportivos-1.jpg", alt: "Corrida de rua" },
-      { src: "/images/eventos/esportivos-2.jpg", alt: "Jogo de futebol" },
-      { src: "/images/eventos/esportivos-3.jpg", alt: "Competição esportiva" },
+      { src: "/images/galeria/esportivos1.jpg", alt: "Corrida de rua" },
+      { src: "/images/galeria/esportivos2.webp", alt: "Jogo de futebol" },
+      { src: "/images/galeria/esportivos3.jpg", alt: "Competição esportiva" },
       { src: "/images/eventos/esportivos-4.jpg", alt: "Atleta em ação" },
       { src: "/images/eventos/esportivos-5.jpg", alt: "Evento esportivo coletivo" },
       { src: "/images/eventos/esportivos-6.jpg", alt: "Momento decisivo" },
@@ -56,7 +56,7 @@ export const eventos: EventData[] = [
       "Cobertura profissional para eventos institucionais e educacionais.",
     description:
       "Registramos eventos corporativos e acadêmicos com foco em credibilidade, organização e fortalecimento da imagem institucional.",
-    coverImage: "/images/eventos/corporativos-cover.jpg",
+    coverImage: "/images/eventos/corporativos-cover.webp",
     gallery: [
       { src: "/images/eventos/corporativos-1.jpg", alt: "Palestra corporativa" },
       { src: "/images/eventos/corporativos-2.jpg", alt: "Evento institucional" },
@@ -74,7 +74,7 @@ export const eventos: EventData[] = [
       "Cobertura de eventos de grande público com energia e impacto visual.",
     description:
       "Captamos a atmosfera, emoção e experiência coletiva de grandes eventos, destacando público, shows e momentos marcantes.",
-    coverImage: "/images/eventos/entretenimento-cover.jpg",
+    coverImage: "/images/eventos/entretenimento-cover.webp",
     gallery: [
       { src: "/images/eventos/entretenimento-1.jpg", alt: "Show ao vivo" },
       { src: "/images/eventos/entretenimento-2.jpg", alt: "Multidão em evento" },
