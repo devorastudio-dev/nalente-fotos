@@ -57,7 +57,7 @@ export default function CardPage() {
             <div className="relative z-10 flex flex-col gap-8">
               <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex items-center gap-4">
-                  <div className="rounded-[28px] border border-white/10 bg-black/35 p-4 backdrop-blur-md">
+                  <div>
                     <Image
                       src="/images/Logotipo.png"
                       alt="Logo NA LENTE"
@@ -73,9 +73,6 @@ export default function CardPage() {
                       <Sparkle size={12} weight="fill" />
                       Cartão virtual
                     </p>
-                    <h1 className="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
-                      NA LENTE
-                    </h1>
                     <p className="mt-2 max-w-md text-sm leading-6 text-white/72 sm:text-base">
                       Fotografia profissional para eventos com energia, estrutura e entrega que continua gerando valor depois do evento.
                     </p>

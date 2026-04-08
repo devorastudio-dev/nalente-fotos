@@ -17,7 +17,7 @@ export default function EventosPage() {
     <div className="bg-white">
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="mb-10 max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">
+          <p className="pt-7 text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">
             Eventos
           </p>
           <h1 className="mt-3 text-3xl font-semibold text-neutral-900">

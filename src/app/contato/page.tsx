@@ -19,7 +19,7 @@ export default function ContatoPage() {
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="grid gap-10 md:grid-cols-[1.1fr_1fr]">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">
+            <p className="pt-7 text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">
               Contato
             </p>
             <h1 className="mt-3 text-3xl font-semibold text-neutral-900">
@@ -38,7 +38,9 @@ export default function ContatoPage() {
               </Link>
             </div>
           </div>
+          <div className="pt-7">
           <ContatoForm />
+          </div>
         </div>
       </section>
     </div>

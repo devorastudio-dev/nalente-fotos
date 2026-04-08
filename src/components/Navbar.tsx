@@ -10,7 +10,6 @@ import { ArrowRight, List, X } from "@phosphor-icons/react";
 const navLinks = [
   { href: "/", label: "Início" },
   { href: "/eventos", label: "Eventos" },
-  { href: "/portfolio", label: "Portfólio" },
   { href: "/galeria", label: "Galeria" },
   { href: "/contato", label: "Contato" },
 ];
