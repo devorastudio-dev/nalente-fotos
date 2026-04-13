@@ -31,7 +31,7 @@ export default function ContatoPage() {
             </p>
             <div className="mt-6">
               <Link
-                href="https://wa.me/5511987654321"
+                href="https://wa.me/5511954462390"
                 className="inline-flex items-center rounded-full border border-neutral-200 px-5 py-2 text-sm font-semibold text-neutral-900 transition hover:border-neutral-900"
               >
                 Falar com a equipe

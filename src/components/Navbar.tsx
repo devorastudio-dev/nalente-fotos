@@ -112,7 +112,7 @@ export function Navbar() {
             transition={{ duration: 0.25 }}
             className="fixed inset-0 z-50 bg-black/94 px-6 py-5 backdrop-blur-xl"
           >
-            <div className="mx-auto flex h-full max-w-2xl flex-col rounded-[32px] border border-white/10 bg-white/5 p-6">
+            <div className="mx-auto flex h-full max-w-2xl flex-col rounded-4xl border border-white/10 bg-white/5 p-6">
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/40">
@@ -137,7 +137,7 @@ export function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="rounded-[24px] border border-white/10 bg-black/30 px-5 py-4 text-lg font-semibold text-white transition hover:border-accent hover:bg-accent hover:text-black"
+                    className="rounded-3xl border border-white/10 bg-black/30 px-5 py-4 text-lg font-semibold text-white transition hover:border-accent hover:bg-accent hover:text-black"
                     onClick={() => setOpen(false)}
                   >
                     {link.label}

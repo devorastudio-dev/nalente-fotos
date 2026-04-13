@@ -53,7 +53,7 @@ export default function EventoPage({ params }: EventPageProps) {
             className="object-cover opacity-80"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/70 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-r from-neutral-950 via-neutral-950/70 to-transparent" />
         </div>
         <div className="relative mx-auto flex min-h-[60vh] max-w-6xl flex-col justify-center gap-4 px-6 py-20 text-white">
           <p className="text-xs uppercase tracking-[0.3em] text-white/60">

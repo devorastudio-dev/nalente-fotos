@@ -22,7 +22,7 @@ export function Footer() {
         <div className="space-y-6">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              NA LENTE
+              Na Lente
             </p>
             <h2 className="mt-3 max-w-xl text-3xl font-semibold leading-tight text-white">
               Seu evento continua gerando presença, lembrança e valor mesmo depois do encerramento.
@@ -32,7 +32,7 @@ export function Footer() {
             {highlights.map((item) => (
               <div
                 key={item}
-                className="rounded-[24px] border border-white/10 bg-white/5 px-4 py-4 text-sm text-white/72"
+                className="rounded-3xl border border-white/10 bg-white/5 px-4 py-4 text-sm text-white/72"
               >
                 {item}
               </div>
@@ -63,16 +63,16 @@ export function Footer() {
           </p>
           <div className="space-y-3 text-sm text-white/70 flex flex-col">
 
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="text-white/70 transition-colors hover:text-accent">
-              WhatsApp: (11) 98765-4321
+            <a href="https://wa.me/5511954462390" target="_blank" rel="noopener noreferrer" className="text-white/70 transition-colors hover:text-accent">
+              WhatsApp: (11) 95446-2390
             </a>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white/70 transition-colors hover:text-accent">
               Instagram: @nalentefotos
             </a>
-            <a href="mailto:" className="text-white/70 transition-colors hover:text-accent">
+            <a href="mailto:contato@nalente.com.br" className="text-white/70 transition-colors hover:text-accent">
               Email: contato@nalente.com.br
             </a>
-            <p className="rounded-[24px] border border-accent/30 bg-accent/10 px-4 py-4 text-white">
+            <p className="rounded-4xl border border-accent/30 bg-accent/10 px-4 py-4 text-white">
               Atendimento pensado para eventos que precisam de imagem forte, operação fluida e entrega profissional.
             </p>
           </div>
@@ -80,7 +80,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10 px-6 py-5 text-center text-xs uppercase tracking-[0.18em] text-white/35">
-        © 2026 NA LENTE. Todos os direitos reservados.
+        © 2026 Na Lente. Todos os direitos reservados.
       </div>
     </footer>
   );

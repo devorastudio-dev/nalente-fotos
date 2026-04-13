@@ -30,7 +30,7 @@ export default function GaleriaPage() {
           </p>
         </div>
 
-        <div className="my-12 overflow-hidden rounded-[32px]">
+        <div className="my-12 overflow-hidden rounded-4xl">
           <Image
             src="/images/galeria/destaque.jpg"
             alt="Foto destaque"

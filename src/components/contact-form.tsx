@@ -26,7 +26,7 @@ export function ContatoForm() {
 📝 *Mensagem:*%0A
 ${mensagem}`;
 
-    const numero = "5511987654321";
+    const numero = "5511954462390";
 
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
@@ -36,7 +36,7 @@ ${mensagem}`;
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-neutral-50 rounded-[32px] border border-neutral-200 p-6 grid gap-4 text-neutral-400"
+      className="bg-neutral-50 rounded-4xl border border-neutral-200 p-6 grid gap-4 text-neutral-400"
     >
             <input
               className="w-full rounded-2xl border border-neutral-200 bg-white px-4 py-3 text-sm"
@@ -71,7 +71,7 @@ ${mensagem}`;
               name="local"
             />
             <textarea
-              className="min-h-[140px] w-full rounded-2xl border border-neutral-200 bg-white px-4 py-3 text-sm"
+              className="min-h-35 w-full rounded-2xl border border-neutral-200 bg-white px-4 py-3 text-sm"
               placeholder="Conte um pouco sobre o evento"
               name="mensagem"
             />

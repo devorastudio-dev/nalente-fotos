@@ -19,7 +19,7 @@ export const metadata = {
 const quickActions = [
   {
     label: "Chamar no WhatsApp",
-    href: "https://wa.me/5511987654321",
+    href: "https://wa.me/5511954462390",
     icon: Phone,
     primary: true,
   },
@@ -95,7 +95,7 @@ export default function CardPage() {
                 {highlights.map((item) => (
                   <div
                     key={item}
-                    className="rounded-[24px] border border-white/10 bg-white/5 px-4 py-4 text-sm font-medium text-white/78"
+                    className="rounded-3xl border border-white/10 bg-white/5 px-4 py-4 text-sm font-medium text-white/78"
                   >
                     {item}
                   </div>
@@ -112,7 +112,7 @@ export default function CardPage() {
                       href={action.href}
                       target={action.href.startsWith("http") || action.href.startsWith("mailto") ? "_blank" : undefined}
                       rel={action.href.startsWith("http") ? "noreferrer" : undefined}
-                      className={`inline-flex items-center justify-between rounded-[24px] border px-5 py-4 text-sm font-semibold transition duration-300 hover:-translate-y-0.5 ${
+                      className={`inline-flex items-center justify-between rounded-3xl border px-5 py-4 text-sm font-semibold transition duration-300 hover:-translate-y-0.5 ${
                         action.primary
                           ? "border-accent bg-accent text-black hover:bg-accent-strong"
                           : "border-white/10 bg-black/30 text-white hover:border-accent hover:bg-white/8"
@@ -132,7 +132,7 @@ export default function CardPage() {
         </section>
 
         <section className="mt-8 grid gap-4 md:grid-cols-[0.95fr_1.05fr]">
-          <div className="rounded-[32px] border border-white/10 bg-[#111111] p-6">
+          <div className="rounded-4xl border border-white/10 bg-[#111111] p-6">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-accent">
               Proposta de valor
             </p>
@@ -140,24 +140,24 @@ export default function CardPage() {
               Seu evento não precisa terminar quando a última luz se apaga.
             </h2>
             <p className="mt-4 text-sm leading-7 text-white/68">
-              A NA LENTE registra, seleciona e entrega imagens com cuidado para transformar momentos em memória, material de divulgação e percepção de valor para quem organiza.
+              A Na Lente registra, seleciona e entrega imagens com cuidado para transformar momentos em memória, material de divulgação e percepção de valor para quem organiza.
             </p>
           </div>
 
-          <div className="rounded-[32px] border border-white/10 bg-white p-6 text-black">
+          <div className="rounded-4xl border border-white/10 bg-white p-6 text-black">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#ff6b00]">
               Contato rápido
             </p>
             <div className="mt-5 space-y-4 text-sm">
-              <div className="rounded-[22px] border border-black/10 bg-[#f7f7f7] px-4 py-4">
+              <div className="rounded-4xl border border-black/10 bg-[#f7f7f7] px-4 py-4">
                 <p className="font-semibold">WhatsApp</p>
-                <p className="mt-1 text-[#555555]">(11) 98765-4321</p>
+                <p className="mt-1 text-[#555555]">(11) 95446-2390</p>
               </div>
-              <div className="rounded-[22px] border border-black/10 bg-[#f7f7f7] px-4 py-4">
+              <div className="rounded-4xl border border-black/10 bg-[#f7f7f7] px-4 py-4">
                 <p className="font-semibold">Instagram</p>
                 <p className="mt-1 text-[#555555]">@nalentestudio</p>
               </div>
-              <div className="rounded-[22px] border border-black/10 bg-[#f7f7f7] px-4 py-4">
+              <div className="rounded-4xl border border-black/10 bg-[#f7f7f7] px-4 py-4">
                 <p className="font-semibold">E-mail</p>
                 <p className="mt-1 text-[#555555]">contato@nalente.com.br</p>
               </div>
