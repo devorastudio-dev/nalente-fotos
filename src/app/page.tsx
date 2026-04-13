@@ -99,8 +99,8 @@ export default function Home() {
             </p>
             <div className="mt-8">
               <Button asChild size="lg" variant="primary">
-                <Link href="/organizadores">
-                  Ver solução para organizadores
+                <Link href="/contato">
+                  Conversar com a equipe
                   <ArrowRight size={18} weight="bold" />
                 </Link>
               </Button>
